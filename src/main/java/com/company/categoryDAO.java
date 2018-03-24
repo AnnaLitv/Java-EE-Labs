@@ -1,53 +1,71 @@
 package com.company;
 
-import javax.sql.DataSource;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.List;
 
-public class categoryDAO{
-    public Connection getCon() {
-        return con;
-    }
-
-    private Connection con;
-    private PreparedStatement stmt;
-    private ResultSet rs;
-    ConnectionPool conObj;
-    DataSource dataSource;
-
+public class categoryDAO extends AbstractDAO<Integer,Category>{
 
     categoryDAO(){
-        conObj = new ConnectionPool();
-        try {
-            dataSource = conObj.setUpPool();
-            con  = dataSource.getConnection();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+       super();
+       super.names = new String[][]{{"name","String"}};
+       super.createQuery = "INSERT INTO category (name) VALUES (?);";
+       super.updateQuery = "UPDATE category SET name=? WHERE idcategory = ?;";
+       super.deleteQuery = "DELETE FROM category WHERE idcategory = ?;";
     }
 
-    public void closeConn(){
+    public int getIdByName(String name) {
+        String query = "SELECT * FROM category WHERE name= ?;";
+        int id=0;
         try {
-            con.close();
+            stmt = con.prepareStatement(query);
+            stmt.setString(1,name);
+            rs = stmt.executeQuery();
+            if(rs.next()) {
+                id = rs.getInt("idcategory");
+            }
         } catch (SQLException e) {
             e.printStackTrace();
         }
+        return id;
     }
 
-    public void rollbackConn(){
+    @Override
+    public String[] setMasOfValues(Category value) {
+        return new String[]{value.getName()};
+    }
+
+    public void update(Category value, Integer key) {
+      super.update(value,key);
+    }
+
+    public void delete(Integer key) {
+       super.delete(key);
+    }
+
+    public Category getByKey(Integer key) {
+        String query = "SELECT * FROM category WHERE idcategory= ?;";
+        Category cat=null;
         try {
-            con.rollback();
+            stmt = con.prepareStatement(query);
+            stmt.setInt(1,key);
+            rs = stmt.executeQuery();
+            if(rs.next()) {
+                cat = new Category(rs.getInt("idcategory"),rs.getString("name"));
+            }
         } catch (SQLException e) {
             e.printStackTrace();
         }
+        return cat;
     }
 
-    public ArrayList<Category> select() {
+    public void addElement(Category value) {
+        super.addElement(value);
+    }
+
+    public List<Category> selectAll() {
         String query = "select * from category;";
-        ArrayList<Category> categories = new ArrayList<Category>();
+        List<Category> categories = new ArrayList<Category>();
         Category cat;
         try {
             stmt = con.prepareStatement(query);
@@ -61,27 +79,4 @@ public class categoryDAO{
         }
         return categories;
     }
-
-    public Category selectById(int id){
-        String query = "SELECT * FROM category WHERE idcategory= ?;";
-        Category cat=null;
-        try {
-            stmt = con.prepareStatement(query);
-            stmt.setInt(1,id);
-            rs = stmt.executeQuery();
-            if(rs.next()) {
-                cat = new Category(rs.getInt("idcategory"),rs.getString("name"));
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        return cat;
-    }
-
-    public void print(){
-        for(int i=0;i< this.select().size();i++){
-            System.out.println(this.select().get(i).toString());
-        }
-    }
-
 }
