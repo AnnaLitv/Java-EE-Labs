@@ -1,4 +1,4 @@
-package com.company;
+package com.company.dao;
 
 import java.util.List;
 

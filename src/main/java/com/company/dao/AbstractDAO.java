@@ -1,4 +1,6 @@
-package com.company;
+package com.company.dao;
+
+import com.company.ConnectionPool;
 
 import javax.sql.DataSource;
 import java.sql.Connection;
@@ -16,6 +18,8 @@ public abstract class AbstractDAO<K,V> implements DAO<K,V> {
     public String createQuery;
     public String updateQuery;
     public String deleteQuery;
+    public String selectAllQuery;
+    public String selectByIdQuery;
 
     public String[][] names;
 
@@ -112,4 +116,5 @@ public abstract class AbstractDAO<K,V> implements DAO<K,V> {
             e.printStackTrace();
         }
     }
+
 }

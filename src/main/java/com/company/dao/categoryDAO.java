@@ -1,12 +1,15 @@
-package com.company;
+package com.company.dao;
+
+import com.company.dao.AbstractDAO;
+import com.company.entities.Category;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class categoryDAO extends AbstractDAO<Integer,Category>{
+public class categoryDAO extends AbstractDAO<Integer,Category> {
 
-    categoryDAO(){
+    public categoryDAO(){
        super();
        super.names = new String[][]{{"name","String"}};
        super.createQuery = "INSERT INTO category (name) VALUES (?);";

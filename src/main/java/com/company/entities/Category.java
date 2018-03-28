@@ -1,4 +1,4 @@
-package com.company;
+package com.company.entities;
 
 public class Category {
     private int id;
@@ -7,7 +7,7 @@ public class Category {
     Category(String name){
         this.name=name;
     }
-    Category(int id, String name){
+    public Category(int id, String name){
         this.id=id;
         this.name=name;
     }

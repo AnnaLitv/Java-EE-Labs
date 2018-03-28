@@ -1,4 +1,4 @@
-package com.company;
+package com.company.entities;
 
 public class Goods {
     private int idgoods;
