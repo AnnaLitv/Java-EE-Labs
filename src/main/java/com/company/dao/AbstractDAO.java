@@ -12,7 +12,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class AbstractDAO<K,V> implements DAO<K,V> {
+public abstract class AbstractDAO<K,V> {
     protected Connection con;
     protected PreparedStatement stmt;
     protected ResultSet rs;
@@ -88,7 +88,6 @@ public abstract class AbstractDAO<K,V> implements DAO<K,V> {
         return numb;
     }
 
-    @Override
     public void update(V value, K key) {
         try {
             stmt=con.prepareStatement(updateQuery);
@@ -100,7 +99,6 @@ public abstract class AbstractDAO<K,V> implements DAO<K,V> {
         }
     }
 
-    @Override
     public void delete(K key) {
         try {
             stmt=con.prepareStatement(deleteQuery);
@@ -111,7 +109,6 @@ public abstract class AbstractDAO<K,V> implements DAO<K,V> {
         }
     }
 
-    @Override
     public V getByKey(K key) {
         V value = null;
         try {
@@ -135,7 +132,6 @@ public abstract class AbstractDAO<K,V> implements DAO<K,V> {
         return value;
     }
 
-    @Override
     public void addElement(V value) {
         try {
             stmt=con.prepareStatement(createQuery);
@@ -147,7 +143,6 @@ public abstract class AbstractDAO<K,V> implements DAO<K,V> {
         }
     }
 
-    @Override
     public List<V> selectAll() {
         List<V> values = new ArrayList<V>();
         try {
