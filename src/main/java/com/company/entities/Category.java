@@ -1,23 +1,24 @@
 package com.company.entities;
 
 public class Category {
-    private int id;
+    private int idcategory;
     private String name;
 
-    Category(String name){
+    public Category(){}
+    public Category(String name){
         this.name=name;
     }
-    public Category(int id, String name){
-        this.id=id;
+    public Category(int idcategory, String name){
+        this.idcategory = idcategory;
         this.name=name;
     }
 
-    public int getId() {
-        return id;
+    public int getIdcategory() {
+        return idcategory;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setIdcategory(int idcategory) {
+        this.idcategory = idcategory;
     }
 
     public String getName() {
@@ -31,7 +32,7 @@ public class Category {
     @Override
     public String toString() {
         return "Category{" +
-                "id=" + id +
+                "idcategory=" + idcategory +
                 ", name='" + name + '\'' +
                 '}';
     }
@@ -43,13 +44,13 @@ public class Category {
 
         Category category = (Category) o;
 
-        if (id != category.id) return false;
+        if (idcategory != category.idcategory) return false;
         return name != null ? name.equals(category.name) : category.name == null;
     }
 
     @Override
     public int hashCode() {
-        int result = id;
+        int result = idcategory;
         result = 31 * result + (name != null ? name.hashCode() : 0);
         return result;
     }

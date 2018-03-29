@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49b02ffd-39d0-43d5-921e-5759f728766f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MethodJavaMod2Labs.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/company/User.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/company/userDAO.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/company/dao/categoryDAOTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Java EE.iml" afterPath="$PROJECT_DIR$/Java EE.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/company/AbstractDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/company/dao/AbstractDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/company/Category.java" afterPath="$PROJECT_DIR$/src/main/java/com/company/entities/Category.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/company/DAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/company/dao/DAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/company/Goods.java" afterPath="$PROJECT_DIR$/src/main/java/com/company/entities/Goods.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/company/categoryDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/company/dao/categoryDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/company/dao/AbstractDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/company/dao/AbstractDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/company/dao/categoryDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/company/dao/categoryDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/company/entities/Category.java" afterPath="$PROJECT_DIR$/src/main/java/com/company/entities/Category.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/company/entities/Goods.java" afterPath="$PROJECT_DIR$/src/main/java/com/company/entities/Goods.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,8 +56,8 @@
       <file leaf-file-name="DAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/dao/DAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -70,12 +66,10 @@
       <file leaf-file-name="AbstractDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/dao/AbstractDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="114" column="34" lean-forward="true" selection-start-line="114" selection-start-column="34" selection-end-line="114" selection-end-column="34" />
+            <state relative-caret-position="161">
+              <caret line="133" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#prepareCreateStatement#0;class#AbstractDAO#0" expanded="false" />
-                <element signature="method#update#0;class#AbstractDAO#0" expanded="false" />
                 <element signature="method#delete#0;class#AbstractDAO#0" expanded="false" />
               </folding>
             </state>
@@ -85,28 +79,57 @@
       <file leaf-file-name="goodsDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/dao/goodsDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="51" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="10" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1220#1221#0" expanded="true" />
+                <element signature="e#1262#1263#0" expanded="true" />
+                <element signature="e#1737#1738#0" expanded="true" />
+                <element signature="e#1777#1778#0" expanded="true" />
                 <element signature="method#getIdByName#0;class#goodsDAO#0" expanded="false" />
-                <marker date="1522250380292" expanded="true" signature="3303:3336" ph="SELECT * FRO... tsukat" />
+                <marker date="1522339082865" expanded="true" signature="1845:1878" ph="SELECT * FRO... tsukat" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="categoryDAO.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="categoryDAO.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/dao/categoryDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="50" column="26" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+            <state relative-caret-position="276">
+              <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1522250380574" expanded="true" signature="642:678" ph="SELECT * FRO... category" />
-                <marker date="1522250380574" expanded="true" signature="1379:1421" ph="SELECT * FRO... category" />
-                <marker date="1522250380574" expanded="true" signature="1962:1984" ph="select * fro... category" />
+                <element signature="method#getIdByName#0;class#categoryDAO#0" expanded="false" />
+                <element signature="e#1402#1403#0" expanded="true" />
+                <element signature="e#1439#1440#0" expanded="true" />
+                <element signature="e#1555#1556#0" expanded="true" />
+                <element signature="e#1597#1598#0" expanded="true" />
+                <element signature="e#1723#1724#0" expanded="true" />
+                <element signature="e#1761#1762#0" expanded="true" />
+                <marker date="1522339863875" expanded="true" signature="844:880" ph="SELECT * FRO... category" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="categoryDAOTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/company/dao/categoryDAOTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="22" column="24" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -114,8 +137,8 @@
       <file leaf-file-name="Goods.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/entities/Goods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="31" column="23" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -124,28 +147,18 @@
       <file leaf-file-name="Category.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/entities/Category.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConnectionPool.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/ConnectionPool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+            <state relative-caret-position="544">
+              <caret line="42" column="56" lean-forward="false" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="goodsDAOTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tests/com/company/goodsDAOTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/company/dao/goodsDAOTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="22" column="35" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="76" selection-end-column="1" />
+            <state relative-caret-position="279">
+              <caret line="70" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="73" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -156,9 +169,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -189,19 +202,20 @@
         <option value="$PROJECT_DIR$/src/main/java/com/company/userDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/DAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/AbstractDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tests/com/company/goodsDAOTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/categoryDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/AbstractDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/goodsDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/entities/Category.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/entities/Goods.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/entities/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/dao/AbstractDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/dao/categoryDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/dao/DAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/dao/goodsDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/company/ConnectionPool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tests/com/company/goodsDAOTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/dao/goodsDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/entities/Goods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/dao/AbstractDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/dao/categoryDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/entities/Category.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/company/dao/categoryDAOTest.java" />
       </list>
     </option>
   </component>
@@ -225,8 +239,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="697" />
+    <option name="x" value="626" />
+    <option name="width" value="747" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -245,6 +259,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -311,37 +327,48 @@
               <item name="Java EE" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java EE" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java EE" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java EE" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java EE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java EE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java EE" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java EE" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java EE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java EE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -357,13 +384,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.company" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company.dao" />
       <recent name="com.company" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.company.dao" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -378,7 +409,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.goodsDAOTest">
+  <component name="RunManager" selected="JUnit.categoryDAOTest.delete">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
@@ -410,43 +441,18 @@
       <envs />
       <method />
     </configuration>
-    <configuration name="goodsDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="categoryDAOTest.addElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.company.entities.*" />
+          <option name="PATTERN" value="com.company.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="Java EE" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.goodsDAOTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="goodsDAOTest.addElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.company.entities.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Java EE" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.goodsDAOTest" />
+      <option name="PACKAGE_NAME" value="com.company.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.company.dao.categoryDAOTest" />
       <option name="METHOD_NAME" value="addElement" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -460,19 +466,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="goodsDAOTest.delElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="categoryDAOTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.company.entities.*" />
+          <option name="PATTERN" value="com.company.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="Java EE" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.goodsDAOTest" />
-      <option name="METHOD_NAME" value="delElement" />
+      <option name="PACKAGE_NAME" value="com.company.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.company.dao.categoryDAOTest" />
+      <option name="METHOD_NAME" value="delete" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -485,18 +491,18 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="goodsDAOTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="categoryDAOTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.company.entities.*" />
+          <option name="PATTERN" value="com.company.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="Java EE" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.goodsDAOTest" />
+      <option name="PACKAGE_NAME" value="com.company.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.company.dao.categoryDAOTest" />
       <option name="METHOD_NAME" value="update" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -510,20 +516,45 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="goodsDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.company.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Java EE" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.company.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.company.dao.goodsDAOTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.goodsDAOTest.addElement" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.goodsDAOTest.delElement" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.goodsDAOTest.update" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.goodsDAOTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.goodsDAOTest (1)" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.categoryDAOTest.addElement" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.categoryDAOTest.update" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.categoryDAOTest.delete" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.goodsDAOTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.goodsDAOTest.delElement" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.goodsDAOTest.update" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.goodsDAOTest.addElement" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.categoryDAOTest.delete" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.categoryDAOTest.update" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.categoryDAOTest.addElement" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.goodsDAOTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -543,7 +574,8 @@
       <workItem from="1521450335345" duration="4937000" />
       <workItem from="1521845024350" duration="7962000" />
       <workItem from="1522073988531" duration="5138000" />
-      <workItem from="1522252125890" duration="500000" />
+      <workItem from="1522252125890" duration="554000" />
+      <workItem from="1522260187577" duration="7405000" />
     </task>
     <task id="LOCAL-00001" summary="Created class tsukat and tsukatTable">
       <created>1519025607330</created>
@@ -566,43 +598,50 @@
       <option name="project" value="LOCAL" />
       <updated>1521852790575</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="com">
+      <created>1522252731946</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1522252731946</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="goodsDAOTest - 2018.03.24 at 02h 43m 50s.xml">
-      <configuration name="goodsDAOTest" configurationId="JUnit" />
+    <history-entry file="categoryDAOTest_addElement - 2018.03.29 at 19h 17m 57s.xml">
+      <configuration name="categoryDAOTest.addElement" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="goodsDAOTest - 2018.03.28 at 18h 20m 47s.xml">
-      <configuration name="goodsDAOTest" configurationId="JUnit" />
+    <history-entry file="categoryDAOTest_delete - 2018.03.29 at 19h 25m 16s.xml">
+      <configuration name="categoryDAOTest.delete" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="goodsDAOTest_addElement - 2018.03.24 at 02h 12m 02s.xml">
-      <configuration name="goodsDAOTest.addElement" configurationId="JUnit" />
+    <history-entry file="categoryDAOTest_update - 2018.03.29 at 19h 20m 58s.xml">
+      <configuration name="categoryDAOTest.update" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="goodsDAOTest_addElement - 2018.03.24 at 02h 14m 32s.xml">
-      <configuration name="goodsDAOTest.addElement" configurationId="JUnit" />
+    <history-entry file="categoryDAOTest_update - 2018.03.29 at 19h 22m 06s.xml">
+      <configuration name="categoryDAOTest.update" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="goodsDAOTest_addElement - 2018.03.24 at 02h 30m 40s.xml">
-      <configuration name="goodsDAOTest.addElement" configurationId="JUnit" />
+    <history-entry file="goodsDAOTest_(1) - 2018.03.29 at 19h 00m 39s.xml">
+      <configuration name="goodsDAOTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="goodsDAOTest_addElement - 2018.03.24 at 02h 31m 34s.xml">
-      <configuration name="goodsDAOTest.addElement" configurationId="JUnit" />
+    <history-entry file="goodsDAOTest_(1) - 2018.03.29 at 19h 02m 30s.xml">
+      <configuration name="goodsDAOTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="goodsDAOTest_addElement - 2018.03.24 at 02h 42m 11s.xml">
-      <configuration name="goodsDAOTest.addElement" configurationId="JUnit" />
+    <history-entry file="goodsDAOTest_(1) - 2018.03.29 at 19h 02m 38s.xml">
+      <configuration name="goodsDAOTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="goodsDAOTest_delElement - 2018.03.24 at 02h 46m 38s.xml">
-      <configuration name="goodsDAOTest.delElement" configurationId="JUnit" />
+    <history-entry file="goodsDAOTest_(1) - 2018.03.29 at 19h 05m 35s.xml">
+      <configuration name="goodsDAOTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="goodsDAOTest_update - 2018.03.16 at 22h 25m 55s.xml">
-      <configuration name="goodsDAOTest.update" configurationId="JUnit" />
+    <history-entry file="goodsDAOTest_(1) - 2018.03.29 at 19h 05m 45s.xml">
+      <configuration name="goodsDAOTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="goodsDAOTest_update - 2018.03.24 at 02h 43m 32s.xml">
-      <configuration name="goodsDAOTest.update" configurationId="JUnit" />
+    <history-entry file="goodsDAOTest_(1) - 2018.03.29 at 19h 06m 34s.xml">
+      <configuration name="goodsDAOTest (1)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62653000" />
+    <option name="totallyTimeSpent" value="70112000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -610,31 +649,31 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30769232" sideWeight="0.5385779" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17512275" sideWeight="0.40620273" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20785597" sideWeight="0.59379727" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20949264" sideWeight="0.59379727" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21633889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2397882" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14220877" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.07855974" sideWeight="0.49092284" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16366611" sideWeight="0.49394855" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.507365" sideWeight="0.49394855" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30769232" sideWeight="0.5385779" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5499182" sideWeight="0.49092284" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -676,29 +715,17 @@
     <MESSAGE value="Created class tsukat and tsukatTable" />
     <MESSAGE value="categoryDAO added" />
     <MESSAGE value="added interface DAO with basic CRUD methods, added abstract class AbsctractDAO with some methods for inserting parameters into queries via array" />
-    <option name="LAST_COMMIT_MESSAGE" value="added interface DAO with basic CRUD methods, added abstract class AbsctractDAO with some methods for inserting parameters into queries via array" />
+    <MESSAGE value="com" />
+    <option name="LAST_COMMIT_MESSAGE" value="com" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <option name="time" value="18" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/dao/categoryDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1522250380574" expanded="true" signature="642:678" ph="SELECT * FRO... category" />
-            <marker date="1522250380574" expanded="true" signature="1379:1421" ph="SELECT * FRO... category" />
-            <marker date="1522250380574" expanded="true" signature="1962:1984" ph="select * fro... category" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tests/com/company/goodsDAOTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/dao/goodsDAOTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1054">
           <caret line="62" column="52" lean-forward="false" selection-start-line="62" selection-start-column="52" selection-end-line="62" selection-end-column="52" />
@@ -712,8 +739,12 @@
           <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1220#1221#0" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
+            <element signature="e#1737#1738#0" expanded="true" />
+            <element signature="e#1777#1778#0" expanded="true" />
             <element signature="method#getIdByName#0;class#goodsDAO#0" expanded="false" />
-            <marker date="1522250380292" expanded="true" signature="3303:3336" ph="SELECT * FRO... tsukat" />
+            <marker date="1522339082865" expanded="true" signature="1845:1878" ph="SELECT * FRO... tsukat" />
           </folding>
         </state>
       </provider>
@@ -741,8 +772,12 @@
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1220#1221#0" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
+            <element signature="e#1737#1738#0" expanded="true" />
+            <element signature="e#1777#1778#0" expanded="true" />
             <element signature="method#getIdByName#0;class#goodsDAO#0" expanded="false" />
-            <marker date="1522250380292" expanded="true" signature="3303:3336" ph="SELECT * FRO... tsukat" />
+            <marker date="1522339082865" expanded="true" signature="1845:1878" ph="SELECT * FRO... tsukat" />
           </folding>
         </state>
       </provider>
@@ -753,9 +788,14 @@
           <caret line="80" column="24" lean-forward="false" selection-start-line="80" selection-start-column="24" selection-end-line="80" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1522250380574" expanded="true" signature="642:678" ph="SELECT * FRO... category" />
-            <marker date="1522250380574" expanded="true" signature="1379:1421" ph="SELECT * FRO... category" />
-            <marker date="1522250380574" expanded="true" signature="1962:1984" ph="select * fro... category" />
+            <element signature="method#getIdByName#0;class#categoryDAO#0" expanded="false" />
+            <element signature="e#1402#1403#0" expanded="true" />
+            <element signature="e#1439#1440#0" expanded="true" />
+            <element signature="e#1555#1556#0" expanded="true" />
+            <element signature="e#1597#1598#0" expanded="true" />
+            <element signature="e#1723#1724#0" expanded="true" />
+            <element signature="e#1761#1762#0" expanded="true" />
+            <marker date="1522339863875" expanded="true" signature="844:880" ph="SELECT * FRO... category" />
           </folding>
         </state>
       </provider>
@@ -784,7 +824,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tests/com/company/goodsDAOTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/dao/goodsDAOTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
@@ -807,8 +847,12 @@
           <caret line="84" column="40" lean-forward="false" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1220#1221#0" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
+            <element signature="e#1737#1738#0" expanded="true" />
+            <element signature="e#1777#1778#0" expanded="true" />
             <element signature="method#getIdByName#0;class#goodsDAO#0" expanded="false" />
-            <marker date="1522250380292" expanded="true" signature="3303:3336" ph="SELECT * FRO... tsukat" />
+            <marker date="1522339082865" expanded="true" signature="1845:1878" ph="SELECT * FRO... tsukat" />
           </folding>
         </state>
       </provider>
@@ -821,7 +865,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tests/com/company/goodsDAOTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/dao/goodsDAOTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
@@ -838,7 +882,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tests/com/company/goodsDAOTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/dao/goodsDAOTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="39" column="44" lean-forward="false" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
@@ -855,8 +899,12 @@
           <caret line="140" column="32" lean-forward="false" selection-start-line="140" selection-start-column="32" selection-end-line="140" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1220#1221#0" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
+            <element signature="e#1737#1738#0" expanded="true" />
+            <element signature="e#1777#1778#0" expanded="true" />
             <element signature="method#getIdByName#0;class#goodsDAO#0" expanded="false" />
-            <marker date="1522250380292" expanded="true" signature="3303:3336" ph="SELECT * FRO... tsukat" />
+            <marker date="1522339082865" expanded="true" signature="1845:1878" ph="SELECT * FRO... tsukat" />
           </folding>
         </state>
       </provider>
@@ -869,7 +917,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tests/com/company/goodsDAOTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/dao/goodsDAOTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
@@ -883,8 +931,12 @@
           <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1220#1221#0" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
+            <element signature="e#1737#1738#0" expanded="true" />
+            <element signature="e#1777#1778#0" expanded="true" />
             <element signature="method#getIdByName#0;class#goodsDAO#0" expanded="false" />
-            <marker date="1522250380292" expanded="true" signature="3303:3336" ph="SELECT * FRO... tsukat" />
+            <marker date="1522339082865" expanded="true" signature="1845:1878" ph="SELECT * FRO... tsukat" />
           </folding>
         </state>
       </provider>
@@ -935,6 +987,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/entities/User.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/userDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/ConnectionPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/dao/DAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -943,81 +1011,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/dao/DAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/dao/AbstractDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="114" column="34" lean-forward="true" selection-start-line="114" selection-start-column="34" selection-end-line="114" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#prepareCreateStatement#0;class#AbstractDAO#0" expanded="false" />
-            <element signature="method#update#0;class#AbstractDAO#0" expanded="false" />
-            <element signature="method#delete#0;class#AbstractDAO#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/dao/goodsDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="51" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getIdByName#0;class#goodsDAO#0" expanded="false" />
-            <marker date="1522250380292" expanded="true" signature="3303:3336" ph="SELECT * FRO... tsukat" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/dao/categoryDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="50" column="26" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1522250380574" expanded="true" signature="642:678" ph="SELECT * FRO... category" />
-            <marker date="1522250380574" expanded="true" signature="1379:1421" ph="SELECT * FRO... category" />
-            <marker date="1522250380574" expanded="true" signature="1962:1984" ph="select * fro... category" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/entities/Goods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="31" column="23" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/entities/Category.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="34" column="42" lean-forward="true" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+        <state relative-caret-position="544">
+          <caret line="42" column="56" lean-forward="false" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tests/com/company/goodsDAOTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/dao/AbstractDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="35" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="76" selection-end-column="1" />
+        <state relative-caret-position="161">
+          <caret line="133" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="174" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#delete#0;class#AbstractDAO#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/dao/goodsDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="70" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="73" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/ConnectionPool.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/dao/categoryDAOTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        <state relative-caret-position="272">
+          <caret line="22" column="24" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/dao/goodsDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1220#1221#0" expanded="true" />
+            <element signature="e#1262#1263#0" expanded="true" />
+            <element signature="e#1737#1738#0" expanded="true" />
+            <element signature="e#1777#1778#0" expanded="true" />
+            <element signature="method#getIdByName#0;class#goodsDAO#0" expanded="false" />
+            <marker date="1522339082865" expanded="true" signature="1845:1878" ph="SELECT * FRO... tsukat" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/dao/categoryDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getIdByName#0;class#categoryDAO#0" expanded="false" />
+            <element signature="e#1402#1403#0" expanded="true" />
+            <element signature="e#1439#1440#0" expanded="true" />
+            <element signature="e#1555#1556#0" expanded="true" />
+            <element signature="e#1597#1598#0" expanded="true" />
+            <element signature="e#1723#1724#0" expanded="true" />
+            <element signature="e#1761#1762#0" expanded="true" />
+            <marker date="1522339863875" expanded="true" signature="844:880" ph="SELECT * FRO... category" />
+          </folding>
         </state>
       </provider>
     </entry>

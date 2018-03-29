@@ -7,31 +7,30 @@ public class Goods {
     private int weight;
     private int price;
     private int quantity;
-    private Category category;
+    private int idcategory;
     private String img;
 
     public Goods(){}
 
-    public Goods(int idgoods, int code, String name, int weight, int price, int quantity, Category category, String img) {
+    public Goods(int idgoods, int code, String name, int weight, int price, int quantity, int idcategory, String img) {
         this.idgoods = idgoods;
         this.code = code;
         this.name = name;
         this.weight = weight;
         this.price = price;
         this.quantity = quantity;
-        this.category = category;
+        this.idcategory = idcategory;
         this.img = img;
     }
-    public Goods(int code, String name, int weight, int price, int quantity, Category category, String img) {
+    public Goods(int code, String name, int weight, int price, int quantity, int idcategory, String img) {
         this.code = code;
         this.name = name;
         this.weight = weight;
         this.price = price;
         this.quantity = quantity;
-        this.category = category;
+        this.idcategory = idcategory;
         this.img = img;
     }
-
     public int getIdgoods() {
         return idgoods;
     }
@@ -56,8 +55,8 @@ public class Goods {
         return quantity;
     }
 
-    public Category getCategory() {
-        return category;
+    public int getIdcategory() {
+        return idcategory;
     }
 
     public String getImg() {
@@ -88,8 +87,8 @@ public class Goods {
         this.quantity = quantity;
     }
 
-    public void setCategory(Category category) {
-        this.category = category;
+    public void setIdcategory(int idcategory) {
+        this.idcategory = idcategory;
     }
 
     public void setImg(String img) {
@@ -105,7 +104,7 @@ public class Goods {
                 ", weight=" + weight +
                 ", price=" + price +
                 ", quantity=" + quantity +
-                ", category=" + category +
+                ", idcategory=" + idcategory +
                 ", img='" + img + '\'' +
                 '}';
     }
@@ -122,8 +121,8 @@ public class Goods {
         if (weight != goods.weight) return false;
         if (price != goods.price) return false;
         if (quantity != goods.quantity) return false;
+        if (idcategory != goods.idcategory) return false;
         if (name != null ? !name.equals(goods.name) : goods.name != null) return false;
-        if (category != null ? !category.equals(goods.category) : goods.category != null) return false;
         return img != null ? img.equals(goods.img) : goods.img == null;
     }
 
@@ -135,7 +134,7 @@ public class Goods {
         result = 31 * result + weight;
         result = 31 * result + price;
         result = 31 * result + quantity;
-        result = 31 * result + (category != null ? category.hashCode() : 0);
+        result = 31 * result + idcategory;
         result = 31 * result + (img != null ? img.hashCode() : 0);
         return result;
     }

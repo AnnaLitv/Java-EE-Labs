@@ -3,10 +3,14 @@ package com.company.dao;
 import com.company.ConnectionPool;
 
 import javax.sql.DataSource;
+import java.lang.reflect.Field;
+import java.lang.reflect.InvocationTargetException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 public abstract class AbstractDAO<K,V> implements DAO<K,V> {
     protected Connection con;
@@ -15,11 +19,13 @@ public abstract class AbstractDAO<K,V> implements DAO<K,V> {
     protected ConnectionPool conObj;
     protected DataSource dataSource;
 
-    public String createQuery;
-    public String updateQuery;
-    public String deleteQuery;
-    public String selectAllQuery;
-    public String selectByIdQuery;
+    protected String createQuery;
+    protected String updateQuery;
+    protected String deleteQuery;
+    protected String selectAllQuery;
+    protected String selectByIdQuery;
+    protected Class<V> entity;
+
 
     public String[][] names;
 
@@ -66,8 +72,8 @@ public abstract class AbstractDAO<K,V> implements DAO<K,V> {
     public int prepareCreateStatement(V value) throws SQLException{
         String[] masOfVals = setMasOfValues(value);
         int numb=1;
-        for(int i=0;i<names.length;i++){
-            switch (names[i][1]){
+        for(int i=0;i<names.length-1;i++){
+            switch (names[i+1][1]){
                 case "String":
                     stmt.setString(i+1,masOfVals[i]);
                     break;
@@ -106,6 +112,30 @@ public abstract class AbstractDAO<K,V> implements DAO<K,V> {
     }
 
     @Override
+    public V getByKey(K key) {
+        V value = null;
+        try {
+            stmt = con.prepareStatement(selectByIdQuery);
+            stmt.setInt(1,(Integer) key);
+            rs = stmt.executeQuery();
+            value = entity.newInstance();
+            if(rs.next()) {
+                Field idFil = entity.getDeclaredField(names[0][0]);
+                idFil.setAccessible(true);
+                idFil.setInt(value,rs.getInt(names[0][0]));
+                for(int i=1;i<names.length;i++){
+                    Field field = entity.getDeclaredField(names[i][0]);
+                    field.setAccessible(true);
+                    field.set(value,rs.getObject(names[i][0]));
+                }
+            }
+        } catch (SQLException | IllegalAccessException | InstantiationException | NoSuchFieldException e) {
+            e.printStackTrace();
+        }
+        return value;
+    }
+
+    @Override
     public void addElement(V value) {
         try {
             stmt=con.prepareStatement(createQuery);
@@ -115,6 +145,30 @@ public abstract class AbstractDAO<K,V> implements DAO<K,V> {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+    }
+
+    @Override
+    public List<V> selectAll() {
+        List<V> values = new ArrayList<V>();
+        try {
+            stmt = con.prepareStatement(selectAllQuery);
+            rs = stmt.executeQuery();
+            while(rs.next()){
+                V value = entity.getConstructor().newInstance();
+                Field idFil = entity.getDeclaredField(names[0][0]);
+                idFil.setAccessible(true);
+                idFil.setInt(value,rs.getInt(names[0][0]));
+                for(int i=1;i<names.length;i++){
+                    Field field = entity.getDeclaredField(names[i][0]);
+                    field.setAccessible(true);
+                    field.set(value,rs.getObject(names[i][0]));
+                }
+                values.add(value);
+            }
+        } catch (SQLException | InstantiationException | IllegalAccessException | NoSuchMethodException | InvocationTargetException | NoSuchFieldException e) {
+            e.printStackTrace();
+        }
+        return values;
     }
 
 }
